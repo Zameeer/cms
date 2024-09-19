@@ -1,0 +1,88 @@
+/* Modal Styling */
+.custom-signin-modal .modal-content {
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  background-color: #f9f9f9;
+}
+
+.modal-header-custom {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.modal-header-custom .modal-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.modal-footer-custom {
+  border-top: none;
+  justify-content: space-between;
+  padding-top: 0;
+}
+
+/* Input field styles */
+.input-field {
+  font-size: 1.2rem;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  transition: border-color 0.3s ease;
+}
+
+.input-field:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+.input-label {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #555;
+}
+
+/* Forgot Password Link */
+.forgot-password-link {
+  display: block;
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+.forgot-password-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.forgot-password-link a:hover {
+  text-decoration: underline;
+}
+
+/* Button Styling */
+.btn-signin {
+  background-color: #007bff;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-signin:hover {
+  background-color: #0056b3;
+}
+
+.btn-cancel {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #6c757d;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-cancel:hover {
+  background-color: #5a6268;
+}

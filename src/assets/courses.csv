@@ -1,0 +1,6 @@
+id,course_name,course_code,department,credits
+1,Data Structures and Algorithms,CS201,Computer Science,4
+2,Circuit Theory,EE101,Electrical Engineering,3
+3,Discrete Mathematics,MATH203,Mathematics,4
+4,Operating Systems,CS301,Computer Science,4
+5,Database Management Systems,IT302,Information Technology,4
